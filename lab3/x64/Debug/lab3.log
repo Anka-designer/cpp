@@ -1,6 +1,2 @@
 ﻿  App.cpp
-  Data.cpp
-C:\Projects\c++\2Course\labs\lab3\Data.cpp(12,12): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-  lab3.cpp
-  Создание кода...
   lab3.vcxproj -> C:\Projects\c++\2Course\labs\lab3\x64\Debug\lab3.exe

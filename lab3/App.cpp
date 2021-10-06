@@ -15,7 +15,7 @@ void App::start() {
 		cout << "3) Show system date and time\n";
 		cout << "0) Close the program" << endl << endl;
 
-		cout << "Insert your choice: "; cin >> key;
+		cout << "Выберите пункт меню: "; cin >> key;
 
 		switch (key)
 		{
