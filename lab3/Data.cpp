@@ -26,7 +26,7 @@ void datetime::showSysDate() {
 
     strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
 
-    cout << "Систменая дата: " << buf << endl;
+    cout << "Системная дата: " << buf << endl;
 }
 
 void datetime::addData(Data new_data) {
