@@ -9,11 +9,11 @@ void App::start() {
 	int key = -1;
 	do {
 
-		cout << "****Меню****" << endl;
-		cout << "1) Show all dates\n";
-		cout << "2) Show Date - Next Date\n";
-		cout << "3) Show system date and time\n";
-		cout << "0) Close the program" << endl << endl;
+		cout << "   Меню   " << endl;
+		cout << "1) Показать все даты\n";
+		cout << "2) Показать дату - Следующая дата\n";
+		cout << "3) Вывести системную дату и время\n";
+		cout << "0) Закрыть программу" << endl << endl;
 
 		cout << "Выберите пункт меню: "; cin >> key;
 
@@ -41,7 +41,7 @@ void App::start() {
 
 		default:
 
-			if (key != 0) cout << "Error! Number not found. Try again!" << endl;
+			if (key != 0) cout << "Неправильно выбран пункт меню, пожалуйста повторите" << endl;
 
 			break;
 		}

@@ -26,7 +26,7 @@ void datetime::showSysDate() {
 
     strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
 
-    cout << "System date: " << buf << endl;
+    cout << "Систменая дата: " << buf << endl;
 }
 
 void datetime::addData(Data new_data) {
@@ -69,7 +69,7 @@ void fileWork::getData(char* fileName, int& i, Data*& data_new) {
         }
     }
     else {
-        cout << "Error! Current file not found!";
+        cout << "Ошибка, файл не найден";
     }
 
     fin.close();
@@ -85,7 +85,7 @@ void fileWork::countData(char* fileName, int& i) {
         }
     }
     else {
-        cout << "Error! Current file not found!";
+        cout << "Ошибка, файл не найден";
     }
 
     fin.close();
@@ -203,7 +203,7 @@ void List::deleteCurrent() {
                     C = last;
                 }
 
-    cout << "Deleted!" << endl;
+    cout << "Очищено" << endl;
 
 }
 
@@ -253,11 +253,11 @@ void List::listPrintSort() {
         C = first;
         while (C != NULL) {
             if (C->next != NULL) {
-                cout << "Date: ";  C->data->showInfo(); cout << " Next date: "; C->next->data->showInfo(); cout << endl;
+                cout << "Дата: ";  C->data->showInfo(); cout << " Следующая дата: "; C->next->data->showInfo(); cout << endl;
                 moveNext();
             }
             if (C->next == NULL) {
-                cout << "Date: ";  C->data->showInfo(); cout << " Next date: not found :(" << endl;
+                cout << "Дата: ";  C->data->showInfo(); cout << " Следующая дата: не найдена :(" << endl;
                 break;
             }
         }
