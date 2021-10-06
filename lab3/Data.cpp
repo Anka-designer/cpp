@@ -4,9 +4,9 @@
 int checkData(int left, int right) {
 
     double temp;
-    cout << " Insert value between " << left << " and" << right; cin >> temp;
+    cout << " Вставьте знчение между " << left << " и" << right; cin >> temp;
     while (temp<left || temp>right || (temp - (int)temp) > 0) {
-        cout << "Wrong value. Try again! "; cin >> temp;
+        cout << "Неверная переменная, повторите снова "; cin >> temp;
     }
 
     return temp;
