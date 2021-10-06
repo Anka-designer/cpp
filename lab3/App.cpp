@@ -9,7 +9,7 @@ void App::start() {
 	int key = -1;
 	do {
 
-		cout << "***MENU***" << endl;
+		cout << "****Μενώ****" << endl;
 		cout << "1) Show all dates\n";
 		cout << "2) Show Date - Next Date\n";
 		cout << "3) Show system date and time\n";
